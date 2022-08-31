@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 
 namespace Travel.WebApi.Controllers;
+{
 
 [ApiController]
 [Route("[controller]")]
@@ -29,4 +30,6 @@ public class WeatherForecastController : ControllerBase
         })
         .ToArray();
     }
+}
+
 }
